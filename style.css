@@ -1,0 +1,188 @@
+.body-container{
+    background-color: #fffefe;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.header-container{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-items{
+    color: #3e444d;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.nav-items:hover{
+    color: #ff9900;
+    transition: 0.5s ease-out;
+}
+
+
+.hero-section{
+    padding: 6rem 0;
+}
+
+.buttons{
+    cursor: pointer;
+}
+
+/* .nav-section{
+    height: 0px;
+    overflow: hidden;
+} */
+
+/* .nav-contanier{
+    height: 100%;
+} */
+
+.buttons{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.sign-in{
+    border: 0.1rem solid #bcd0e5;
+    border-radius: 0.3rem;
+    padding: 0.7rem 10%;
+}
+
+.sign-up{
+    /* border: 0.1rem solid #bcd0e5; */
+    background-color: #ff9900;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0.7rem 10%;
+}
+
+.hero-title{
+    font-size: 2.75rem;
+    width: 88%;
+    font-weight: 800;
+    color: #2f281e;
+    line-height: 1.2;
+}
+
+.hero-sub-title{
+    font-size: 1.15rem;
+    font-weight: 500;
+    width: 85%;
+}
+
+.anchor-tag{
+    color: #ff9900;
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+.hero-btn{
+    background-color: #ff9900;
+    color: white;
+    padding: 0.8rem 1.8rem;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    width: fit-content;
+}
+
+.play-icon{
+    color: #ff9900;
+    scale: 1.1;
+}
+
+
+.design-section{
+    background: url(images/shape.png);
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem 0;
+}
+
+.first-click{
+    color: #2f281e;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.click-text{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.icon-image{
+    scale: 0.8;
+}
+
+
+.design-section-title{
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #2f281e;
+    font-weight: 800;
+    width: 60% !important;
+    text-align: center; 
+
+}
+
+.sign-up-btn{
+    background-color: #ff9900;
+    color: white;
+    font-weight: 600;
+}
+
+/* #ff9900 */
+
+
+.design-title{
+    color: #2f281e ;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.design-profession{
+    color: #2f281e ;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.design-sub-text{
+    color: #2f281e ;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.design-lower-heading{
+    color: #2f281e ;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.cardtitle{
+    font-size: 1rem;
+    font-weight: 400;
+    color:#5d5757;
+}
+
+.cardtitle span{
+    font-weight: 700;
+    color: #2f281e;
+}
+
+.cardbody{
+    border: none;
+}
+
+.cardtext{
+    color: #2f281e;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.1;
+}
